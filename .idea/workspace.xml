@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed01627-f8bf-47c6-ace1-a4cd3994fc0e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/Ride.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/InvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/InvoiceGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/brideglabz/cabinvoicegenerator/InvoiceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brideglabz/cabinvoicegenerator/InvoiceGeneratorTest.java" afterDir="false" />
     </list>
