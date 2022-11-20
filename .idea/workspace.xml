@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed01627-f8bf-47c6-ace1-a4cd3994fc0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/RideRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/InvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/InvoiceGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/Invoice_Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/Invoice_Description.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/RideRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/cabinvoicegenerator/RideRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/brideglabz/cabinvoicegenerator/InvoiceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brideglabz/cabinvoicegenerator/InvoiceGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
       <recent name="com.brideglabz.cabinvoicegenerator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvoiceGeneratorTest.givenUserId_shouldReturn_invoiceDescriptionList">
+  <component name="RunManager" selected="JUnit.InvoiceGeneratorTest.givenUserId_shouldReturnInvoiceDescriptionListForNormalRide">
     <configuration name="InvoiceGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CabInvoiceGenerator" />
       <extension name="coverage">
@@ -80,6 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvoiceGeneratorTest.givenUserId_shouldReturnInvoiceDescriptionListForNormalRide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CabInvoiceGenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brideglabz.cabinvoicegenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brideglabz.cabinvoicegenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.brideglabz.cabinvoicegenerator.InvoiceGeneratorTest" />
+      <option name="METHOD_NAME" value="givenUserId_shouldReturnInvoiceDescriptionListForNormalRide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InvoiceGeneratorTest.givenUserId_shouldReturn_invoiceDescriptionList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CabInvoiceGenerator" />
       <extension name="coverage">
@@ -98,8 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InvoiceGeneratorTest.givenUserId_shouldReturn_invoiceDescriptionList" />
+        <item itemvalue="JUnit.InvoiceGeneratorTest.givenUserId_shouldReturnInvoiceDescriptionListForNormalRide" />
         <item itemvalue="JUnit.InvoiceGeneratorTest" />
+        <item itemvalue="JUnit.InvoiceGeneratorTest.givenUserId_shouldReturn_invoiceDescriptionList" />
         <item itemvalue="JUnit.InvoiceGeneratorTest.givenLessDistanceAndTime_shouldReturn_MinimumCalculateFare" />
       </list>
     </recent_temporary>
